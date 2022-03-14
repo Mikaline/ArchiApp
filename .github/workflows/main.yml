@@ -39,7 +39,7 @@ jobs:
         run: npm install
         
       - name: Lancement test unitaires
-        run: ci:frontend:test
+        run: test
       
       # Runs a single command using the runners shell
       - name: Run a one-line script
